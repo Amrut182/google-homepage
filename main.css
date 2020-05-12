@@ -3,6 +3,11 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #navi {
     position: absolute;
     top: 20px;
@@ -14,9 +19,12 @@ li, button {
     padding: 3px;
 }
 
-button  {
-    background-color :#205ce8;
+#navi button  {
+    background-color :#2566ffde;
+    border: none;
     color: white;
+    font-weight: bold;
+    padding: 7px 10px;
 }
 
 #sign {
@@ -29,15 +37,54 @@ button  {
     margin: 125px;
     width: 23%;
 }
-.search .center {
-    margin: auto;
-    padding: -20px;
-
-}
 
 a {
     color:#3b414b;
 }
-.underline-hover:hover {
-    text-decoration: underline;
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container button {
+    color: rgb(124, 122, 122);
+    background-color :rgb(238, 235, 235);
+    border: none;
+    padding: 7px 10px;
+}
+
+.text {
+    text-align: center;
+}
+
+.text a {
+    color: rgb(11, 11, 202);
+}
+
+.bottom-right {
+    float: right;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.bottom-left {
+    float: left;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type=text] {
+    bottom: 1px;
+    width: 530px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 25px;
+    border-color:  rgb(238, 235, 235);
+    border-style: solid;
+    outline: none;
 }
