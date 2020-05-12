@@ -1,0 +1,1 @@
+This mini-project is about creating the google homepage using only html and css.
