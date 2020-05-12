@@ -1,0 +1,43 @@
+/* CSS Styles */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navi {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+li, button {
+    display: inline;
+    padding: 3px;
+}
+
+button  {
+    background-color :#205ce8;
+    color: white;
+}
+
+#sign {
+    color: azure;
+    font-weight: 30px;
+}
+
+.center {
+    display: block;
+    margin: 125px;
+    width: 23%;
+}
+.search .center {
+    margin: auto;
+    padding: -20px;
+
+}
+
+a {
+    color:#3b414b;
+}
+.underline-hover:hover {
+    text-decoration: underline;
+}
